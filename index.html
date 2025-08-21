@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Docs Viewer</title>
+  <link rel="stylesheet" href="./index.css" />
+  <!-- Markdown parser (leve e direto) -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Docs Viewer</div>
+    <div class="repo" id="repoLabel"></div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <input id="search" type="search" placeholder="Filtrar arquivos..." />
+      </div>
+      <nav id="fileList" class="file-list" aria-label="Arquivos Markdown"></nav>
+    </aside>
+
+    <section class="viewer">
+      <article id="content" class="content" aria-live="polite">
+        <div class="empty">
+          <h2>Selecione um arquivo .md</h2>
+          <p>Coloque seus arquivos na pasta <code>docs/</code>. Eles aparecerão aqui.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+
+  <script src="./index.js"></script>
+</body>
+</html>
