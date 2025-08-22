@@ -1,12 +1,12 @@
 :root{
-    --bg:#0f1216;
+    --bg:#151a21;
     --panel:#151a21;
     --muted:#9aa4b2;
     --text:#e6edf3;
     --accent:#4f9cff;
     --border:#222833;
     --radius:16px;
-    --shadow:0 6px 24px rgba(0,0,0,.25);
+    --shadow:0 6px 24px rgba(0, 0, 0, 0.098);
     --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
     --sans: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   }
@@ -141,5 +141,62 @@
   @media (max-width: 900px){
     .layout{grid-template-columns:1fr}
     .sidebar{position:sticky; top:52px; z-index:4}
+  }
+  .group-list {
+    list-style: none;
+    padding-left: 1rem;
+    margin: 0 0 1rem 0;
+    transition: all 0.3s;
+  }
+  
+  .group-list.collapsed {
+    display: none;
+  }
+  
+  .group-title {
+    cursor: pointer;
+    margin: 0.5rem 0;
+    color: #fff;
+    background: rgb(15, 15, 29);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+  }
+
+  .group-title::before {
+    content: "►"; /* seta fechada */
+    display: inline-block;
+    margin-right: 0.5rem;
+    transition: transform 0.2s;
+  }
+  
+  .group-title.open::before {
+    content: "▼"; /* seta aberta */
+  }
+  .group-title.Informativo {
+    background: #4466aa;
+    color: #fff;
+  }
+  
+  .group-title.Configurar {
+    background: #aa6644;
+    color: #fff;
+  }
+  
+  .group-title.Documentacao {
+    background: #9244aa;
+    color: #fff;
+  }
+  
+  .group-title.Instalacao {
+    background: #8daa44;
+    color: #fff;
+  }
+  .group-title.Integracao {
+    background: #aa4444;
+    color: #fff;
+  }
+  .group-title.Tutorial-de-Procedimento {
+    background: #44aaa0;
+    color: #fff;
   }
   

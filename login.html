@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login - Docs Viewer</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #151a21, #22223b);
+      margin: 0;
+    }
+    
+    .login-box {
+      background: #ffffff;
+      padding: 2.5rem 3rem;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      max-width: 360px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .login-box h2 {
+      margin-bottom: 1.5rem;
+      color: #22223b;
+    }
+    
+    input {
+      display: block;
+      margin: 1rem 0;
+      width: 100%;
+      padding: 0.75rem 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    input:focus {
+      border-color: #4a4e69;
+      box-shadow: 0 0 5px rgba(74, 78, 105, 0.5);
+      outline: none;
+    }
+    
+    button {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      border: none;
+      border-radius: 8px;
+      background: #4a4e69;
+      color: #fff;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    
+    button:hover {
+      background: #22223b;
+      transform: scale(1.05);
+    }
+    </style>    
+</head>
+<body>
+  <div class="login-box">
+    <h2>Login</h2>
+    <input type="text" id="user" placeholder="Usuário" />
+    <input type="password" id="pass" placeholder="Senha" />
+    <button id="loginBtn">Entrar</button>
+    <p id="msg" style="color:red;"></p>
+  </div>
+
+  <script>
+    const loginBtn = document.getElementById('loginBtn');
+    const msg = document.getElementById('msg');
+
+    const USER = 'Onebeat';
+    const PASS_HASH = 'dcaff40ab8944cad6430d3255afb7b16c85034390b8dd391a6558bc69f0416ca';
+
+    async function sha256(str) {
+      const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+      return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
+    }
+
+    loginBtn.addEventListener('click', async () => {
+      const user = document.getElementById('user').value;
+      const pass = document.getElementById('pass').value;
+      const hash = await sha256(pass);
+
+      if(user === USER && hash === PASS_HASH){
+        sessionStorage.setItem('loggedIn', 'true');
+        window.location.href = 'index.html';
+      } else {
+        msg.textContent = 'Usuário ou senha incorretos!';
+      }
+    });
+  </script>
+</body>
+</html>
