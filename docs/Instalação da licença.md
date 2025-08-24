@@ -16,13 +16,13 @@ Antes de qualquer coisa olhe a versão que se encontra o onebeat no Abra o Onebe
 
 Se estiver na 1.7:
 
-![image.png](Docs/Instalacaodalicenca/image.png)
+![image.png](/Docs/img/Instalacaodalicenca_image.png)
 
 Faça o processo de Renovar
 
 Se estiver em versões anteriores:
 
-![image.png](Docs/Instalacaodalicenca/image%201.png)
+![image.png](/docs/img/Instalacaodalicenca_image_1.png)
 
 Faça o processo de Instalação da nova licença.
 
@@ -46,19 +46,19 @@ Onebeat Server Activation ID: XXXXX
 
 Obs: Esses dois dados se encontram no Onebeat Server Administration, na aba server ID:
 
-![image.png](Docs/Instalacaodalicenca/image%202.png)
+![image.png](/docs/img/Instalacaodalicenca_image_2.png)
 
 Obs: Não se esqueça de anexar a licença antiga no email:
 
-![image.png](Docs/Instalacaodalicenca/image%203.png)
+![image.png](/docs/img/Instalacaodalicenca_image_3.png)
 
 - Passo 2 - Desligue o serviço do Onebeat
 
 Vá em services e desligue o Onebeat server, também dê Quit no atalho (canto inferior direito)
 
-![image.png](Docs/Instalacaodalicenca/image%204.png)
+![image.png](/docs/img/Instalacaodalicenca_image_4.png)
 
-![image.png](Docs/Instalacaodalicenca/image%205.png)
+![image.png](/docs/img/Instalacaodalicenca_image_5.png)
 
 - Passo 3 - Substituir a licença
 
@@ -84,7 +84,7 @@ Abra o Onebeat administrator e verifique se a licença foi aplicada corretamente
 
 Peça a licença nos seguintes termos:
 
-![image.png](Docs/Instalacaodalicenca/image%206.png)
+![image.png](/docs/img/Instalacaodalicenca_image_6.png)
 
 Segue texto padrão:
 
@@ -120,11 +120,11 @@ Vá em services e desligue o Onebeat server, tambem de Quit nos atalhos (canto i
 
 Digite na barra de pesquisa do windows “Add or remove programs",  segue imagem:
 
-![image.png](Docs/Instalacaodalicenca/image%207.png)
+![image.png](/docs/img/Instalacaodalicenca_image_7.png)
 
 pesquise por onebeat na barra e apague os apps de cima para baixo, veja:
 
-![image.png](Docs/Instalacaodalicenca/image%208.png)
+![image.png](/docs/img/Instalacaodalicenca_image_8.png)
 
 Confira se tem 7 e apague todos.
 
@@ -136,7 +136,7 @@ Instale os arquivos de cima para baixo, sempre executando como administrador:
 
  
 
-![image.png](Docs/Instalacaodalicenca/image%209.png)
+![image.png](/docs/img/Instalacaodalicenca_image_9.png)
 
 Obs: Não deixe nenhuma caixinha marcada.
 
@@ -150,23 +150,23 @@ Selecione This account
 
 Selecione Browse…
 
-![image.png](Docs/Instalacaodalicenca/image%2010.png)
+![image.png](/docs/img/Instalacaodalicenca_image_10.png)
 
 Vá em advanced…
 
 Clique Find Now
 
-![image.png](Docs/Instalacaodalicenca/image%2011.png)
+![image.png](/docs/img/Instalacaodalicenca_image_11.png))
 
 Escolha la em baixo o usuario onebeat_dev com dois cliques.
 
-![image.png](Docs/Instalacaodalicenca/image%2012.png)
+![image.png](/docs/img/Instalacaodalicenca_image_12.png))
 
 Depois OK
 
 Depois apague as duas senhas desta tela:
 
-![image.png](Docs/Instalacaodalicenca/image%2013.png)
+![image.png](/docs/img/Instalacaodalicenca_image_13.png))
 
 Vá no PassBolt e pegue a senha do usuario dev e cole nos dois campos
 
@@ -196,7 +196,7 @@ Abra o onebeat server administrator como administrador e va na aba DB Convert
 
 Selecione o CLIENTE CORRETO e a ultima versão, deixe a caixinha preenchida:
 
-![image.png](Docs/Instalacaodalicenca/image%2014.png)
+![image.png](/docs/img/Instalacaodalicenca_image_14.png))
 
 Se for selecionado o cliente errado gerará um problema enorme, faca com atencao!!!
 

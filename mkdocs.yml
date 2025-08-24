@@ -1,0 +1,41 @@
+site_name: Documentation Onebeat Brazil
+
+theme:
+  name: material
+  palette:
+  - scheme: default
+    primary: deep blue
+    accent: amber
+    toggle:
+      icon: material/lightbulb-outline
+      name: Switch to light mode
+  - scheme: slate
+    primary: deep blue
+    accent: amber
+    toggle:
+      icon: material/lightbulb
+      name: Switch to dark mode
+  features:
+  - search.suggest
+  - search.highlight
+  icon:
+    repo: fontawesome/brands/github-alt
+#  logo: img/icon-white.svg
+#  favicon: img/favicon.png
+  language: en
+nav:
+  - Overview Onebeat: Overview Onebeat.md
+  - Abertura de tasks: Abertura de tasks.md 
+  - Automatizar o delete de backup dos bancos: Automatizar o delete de backup dos bancos.md
+  - Como Reprocessar uma Carga: Como Reprocessar uma Carga.md
+  - Configurar filezila: Configurar filezila.md
+  - Corrigir erro no PBI: Corrigir erro no PBI.md
+  - Criar sp_BissHistory: Criar sp_BissHistory.md
+  - Instalação da licença: Instalação da licença.md
+  - Integrar Shared Project: Integrar Shared Project.md
+  - Shared Project: Shared Project.md
+  - Solução de Proporcionalidade Pai-Filho (solution_multiples): Solução de Proporcionalidade Pai-Filho (solution_multiples).md
+  - Verificar os erros no email: Verificar os erros no email.md
+
+
+
