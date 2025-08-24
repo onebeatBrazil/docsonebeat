@@ -25,7 +25,7 @@ Este documento descreve o processo para criar a stored procedure sp_BissHistory 
 - Abra o banco de dados do cliente específico
 - Localize e abra a sp_biss do cliente para usar como referência
 
-![image.png](Docs/Criarsp_BissHistory/image.png)
+![image.png](/docs/img/sp_BissHistory.png)
 
 - Crie um novo script e cole o código base fornecido abaixo
 

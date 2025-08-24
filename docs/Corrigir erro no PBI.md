@@ -1,16 +1,3 @@
-# Corrigir erro no PBI
-
-Criado por: Lucca Lacerda de Souza Lommez
-Criado em: 16 de julho de 2025 11:28
-Categoria: Tutorial de Procedimento
-Última edição por: Lucca Lacerda de Souza Lommez
-Última atualização em: 8 de agosto de 2025 10:19
-Autor: Lucca Lacerda de Souza Lommez
-Direcionado ao: DEV
-Lingua: Português
-Status: Concluído
-Texto: 16 de julho de 2025 11:28
-Última edição por 1: Lucca Lacerda de Souza Lommez
 
 # Tutorial: Como Corrigir Erros no Power BI
 
@@ -26,7 +13,7 @@ O primeiro passo para resolver qualquer problema no Power BI é identificar corr
 - Analise a mensagem de erro exibida na interface do Power BI
 - Os erros mais comuns estão relacionados à falta de atualização do gateway
 
-![image.png](Docs/CorrigirerronoPBI/image.png)
+![image.png](/docs/img/erro_pbi_1.png)
 
 Exemplo de erro no PBI 
 
@@ -54,7 +41,7 @@ Siga estes passos para resolver o problema:
 - Verifique se o gateway está conectado corretamente
 - Se aparecer uma mensagem solicitando atualização, clique no link fornecido que redirecionará para a página de download da Microsoft
 
-![image.png](Docs/CorrigirerronoPBI/image%201.png)
+![image.png](/docs/img/erro_pbi_2.png)
 
 Basta clicar em Dowload
 
@@ -63,15 +50,15 @@ Basta clicar em Dowload
 - Abra o Visual Studio Code
 - Execute primeiro a célula de configurações
 
-![image.png](Docs/CorrigirerronoPBI/image%202.png)
+![image.png](/docs/img/erro_pbi_3.png)
 
 - Em seguida, execute a(s) célula(s) do PBI
 
-![image.png](Docs/CorrigirerronoPBI/image%203.png)
+![image.png](/docs/img/erro_pbi_4.png)
 
 - Aguarde até que o erro seja resolvido
 
-![image.png](Docs/CorrigirerronoPBI/image%204.png)
+![image.png](/docs/img/erro_pbi_5.png)
 
 ## Resolução de Problemas Comuns
 
@@ -79,10 +66,24 @@ Se o problema persistir, verifique o erro no PBI entrando na [página do PBI](ht
 
 - Clique em workspaces e em premium [nome do cliente]:
 
-![image.png](Docs/CorrigirerronoPBI/image%205.png)
+![image.png](/docs/img/erro_pbi_6.png)
 
 - Clique em [nome do cliente] Dash:
 
-![image.png](Docs/CorrigirerronoPBI/image%206.png)
+![image.png](/docs/img/erro_pbi_7.png
 
 - Ai estará o erro.
+
+# Corrigir erro no PBI
+
+Criado por: Lucca Lacerda de Souza Lommez
+Criado em: 16 de julho de 2025 11:28
+Categoria: Tutorial de Procedimento
+Última edição por: Lucca Lacerda de Souza Lommez
+Última atualização em: 8 de agosto de 2025 10:19
+Autor: Lucca Lacerda de Souza Lommez
+Direcionado ao: DEV
+Lingua: Português
+Status: Concluído
+Texto: 16 de julho de 2025 11:28
+Última edição por 1: Lucca Lacerda de Souza Lommez

@@ -50,7 +50,7 @@ if CONTINUE:
 
 No final do notebook:
 
-![image.png](Docs/Automatizarodeleedebackupdosbancos/image.png)
+![image.png](/docs/img/Automatizar_del_bkp.png)
 
 ### Passo 2: Criar o arquivo batch para limpeza
 

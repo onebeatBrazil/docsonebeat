@@ -22,13 +22,13 @@ O primeiro passo para reprocessar uma carga é verificar no email de erros na da
 
 - **Falha na geração das interfaces** (parcial ou total)
 
-![image.png](Docs/ComoReprocessarumaCarga/image.png)
+![image.png](/docs/img/como_reprocessar_carga_6.png)
 
 (Imagem exemplo, o erro pode variar)
 
 - **Falha no autoloader**
 
-![image.png](Docs/ComoReprocessarumaCarga/image%201.png)
+![image.png](/docs/img/como_reprocessar_carga_1.png)
 
 Quer aprender a ler o email de erros? Clique no link para um tutorial detalhado! —>  [Verificar os erros no email](https://www.notion.so/Verificar-os-erros-no-email-2306f59d8418807ebab8e95f4151e68b?pvs=21) 
 
@@ -44,11 +44,11 @@ Se o problema for na geração de interfaces, verifique se é possível gerá-la
 
 Na maioria dos casos, é possível gerar as interfaces novamente através da alteração da variável "PROCESS_DATE" e "CURRENT_DATE”, que a maioria dos clientes possui.
 
-![image.png](Docs/ComoReprocessarumaCarga/image%202.png)
+![image.png](/docs/img/como_reprocessar_carga_2.png)
 
 Basta alterar essa variável para a data desejada para que as interfaces possam ser geradas. Em caso de reprocessamento de um cliente que utiliza sftp tem também a "FTP_DATE”:
 
-![image.png](Docs/ComoReprocessarumaCarga/image%203.png)
+![image.png](/docs/img/como_reprocessar_carga_3.png)
 
 Em caso de dúvidas sobre a geração das interfaces, ou da ausência da variável, consulte o tech responsável pelo código.
 
@@ -60,11 +60,11 @@ Se o erro for apenas do autoloader e as interfaces foram geradas e carregadas no
 
 Isso pode ser verificado no email de confirmação - geralmente a carga carrega 4 arquivos apenas. Caso tenha o dobro de arquivos usuais, significa que ocorreu esse tipo de situação.
 
-![image.png](Docs/ComoReprocessarumaCarga/image%204.png)
+![image.png](/docs/img/como_reprocessar_carga_4.png)
 
 É de extrema importância verificar a pasta "history folder" para confirmar se os arquivos foram de fato carregados. TODOS os arquivos esperados devem estar presentes nesta pasta, E PREENCHIDOS COM DADOS, NÃO PODEM ESYTAR VAZIOS, sem exceção. Esta verificação é um passo crítico para garantir que o processamento foi completado corretamente e evitar problemas futuros relacionados a dados faltantes ou incompletos.
 
-![image.png](Docs/ComoReprocessarumaCarga/25a877d9-14b9-48eb-957b-f9c92f18b1b6.png)
+![image.png](/docs/img/como_reprocessar_carga_5.png)
 
 ## Passo 4: Atualizar a BISS
 
