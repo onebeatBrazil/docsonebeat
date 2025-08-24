@@ -24,6 +24,7 @@ theme:
 #  favicon: img/favicon.png
   language: en
 nav:
+  - Home: index.md
   - Overview Onebeat: Overview Onebeat.md
   - Abertura de tasks: Abertura de tasks.md 
   - Automatizar o delete de backup dos bancos: Automatizar o delete de backup dos bancos.md
