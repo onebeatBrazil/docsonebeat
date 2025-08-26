@@ -12,7 +12,7 @@ Status: Concluído
 Texto: 23 de abril de 2025 11:58
 Última edição por 1: Lucca Lacerda de Souza Lommez
 
-Antes de qualquer coisa olhe a versão que se encontra o onebeat no Abra o Onebeat administrator:
+Antes de qualquer verifique a versão que se encontra no Onebeat administrator:
 
 Se estiver na 1.7:
 

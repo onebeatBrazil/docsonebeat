@@ -29,7 +29,7 @@ O email de erros é enviado diariamente nos seguintes horários:
 
 O cabeçalho do email informa quantos erros e quantos warnings foram encontrados. **Erros são considerados graves e devem ser resolvidos imediatamente**, enquanto warnings indicam problemas menos críticos, mas que também precisam de atenção.
 
-![image](docs/Verificaroserrosnoemail/image.png)
+![image](/docs/img/verificaroserrosnoemail_image.png)
 
 ## Sistema de Cores dos Clientes
 
@@ -37,15 +37,15 @@ Os clientes são apresentados com as seguintes cores:
 
 - Verde: Indica que tudo rodou corretamente, incluindo o Autoloader e o Dashboard. Porém, isso não isenta a necessidade de verificar o status das stored procedures, métricas e quarentenas.
 
-![image](docs/Verificaroserrosnoemail/image1.png)
+![image](/docs/img/verificaroserrosnoemail_image1.png)
 
 - Amarelo: Indica que o Autoloader carregou, mas o Dashboard não foi atualizado. Requer atenção para resolver os problemas. (Um exemplo: se a sp_biss não roda, o dash não atualiza.)
 
-![image](docs/Verificaroserrosnoemail/image2.png)
+![image](/docs/img/verificaroserrosnoemail_image2.png)
 
 - Vermelho: Indica que nem o Autoloader conseguiu rodar, impedindo completamente a carga de dados. Deve ser resolvido imediatamente.
 
-![image](docs/Verificaroserrosnoemail/image3.png)
+![image](/docs/img/verificaroserrosnoemail_image3.png)
 
 ## Componentes Principais
 
@@ -171,6 +171,6 @@ ORDER BY
 
 Ao analisar os resultados desta consulta, preste atenção especial aos campos Status e ErrorMessage, que fornecem informações diretas sobre a natureza do problema e podem ajudar a determinar a abordagem correta para resolução.
 
-![image](docs/Verificaroserrosnoemail/image4.png)
+![image](/docs/img/verificaroserrosnoemail_image4.png)
 
 Exemplo de erro de procedure.
