@@ -25,18 +25,15 @@ theme:
   language: en
 nav:
   - Home: index.md
-  - Overview Onebeat: Overview Onebeat.md
-  - Abertura de tasks: Abertura de tasks.md 
-  - Automatizar o delete de backup dos bancos: Automatizar o delete de backup dos bancos.md
-  - Como Reprocessar uma Carga: Como Reprocessar uma Carga.md
-  - Configurar filezila: Configurar filezila.md
-  - Corrigir erro no PBI: Corrigir erro no PBI.md
-  - Criar sp_BissHistory: Criar sp_BissHistory.md
-  - Instalação da licença: Instalação da licença.md
-  - Integrar Shared Project: Integrar Shared Project.md
-  - Shared Project: Shared Project.md
-  - Solução de Proporcionalidade Pai-Filho (solution_multiples): Solução de Proporcionalidade Pai-Filho (solution_multiples).md
-  - Verificar os erros no email: Verificar os erros no email.md
-
-
-
+  - Overview Onebeat: Overview_Onebeat.md
+  - Abertura de tasks: Abertura_de_tasks.md 
+  - Automatizar o delete de backup dos bancos: Automatizar_delete_backup_dos_bancos.md
+  - Como Reprocessar uma Carga: Reprocessar_Carga.md
+  - Configurar filezila: Configurar_filezila.md
+  - Corrigir erro no PBI: Erro_PBI.md
+  - Criar sp_BissHistory: Criar_sp_BissHistory.md
+  - Instalação da licença: Ativacao_licenca.md
+  - Integrar Shared Project: Integrar_Shared_Project.md
+  - Shared Project: Shared_Project.md
+  - Solução de Proporcionalidade Pai-Filho (solution_multiples): Solucao_Proporcionalidade_Pai_Filho_solution_multiples.md
+  - Verificar os erros no email: Erros_no_email.md
