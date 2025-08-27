@@ -1,0 +1,696 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Integrar_Shared_Project/">
+      
+      
+        <link rel="next" href="../Solucao_Proporcionalidade_Pai_Filho_solution_multiples/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
+    
+    
+      
+        <title>Shared Project - Documentation Onebeat Brazil</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-blue" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#shared-project" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Documentation Onebeat Brazil" class="md-header__button md-logo" aria-label="Documentation Onebeat Brazil" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentation Onebeat Brazil
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Shared Project
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-blue" data-md-color-accent="amber"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-blue" data-md-color-accent="amber"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Documentation Onebeat Brazil" class="md-nav__button md-logo" aria-label="Documentation Onebeat Brazil" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Documentation Onebeat Brazil
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Overview_Onebeat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview Onebeat
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Abertura_de_tasks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Abertura de tasks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Automatizar_delete_backup_dos_bancos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Automatizar o delete de backup dos bancos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Reprocessar_Carga/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Como Reprocessar uma Carga
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Configurar_filezila/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Configurar filezila
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Erro_PBI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Corrigir erro no PBI
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Criar_sp_BissHistory/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Criar sp_BissHistory
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ativacao_licenca/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Instalação da licença
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Integrar_Shared_Project/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Integrar Shared Project
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Shared Project
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Solucao_Proporcionalidade_Pai_Filho_solution_multiples/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Solução de Proporcionalidade Pai-Filho (solution_multiples)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Erros_no_email/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Verificar os erros no email
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="shared-project">Shared Project</h1>
+<p>Criado por: Lucca Lacerda de Souza Lommez
+Criado em: 6 de agosto de 2025 11:25
+Categoria: Documentação
+Última edição por: Lucca Lacerda de Souza Lommez
+Última atualização em: 22 de agosto de 2025 18:40
+Autor: Lucca Lacerda de Souza Lommez
+Direcionado ao: CS, DEV
+Lingua: Português
+Status: Concluído
+Texto: 6 de agosto de 2025 11:25
+Última edição por 1: Lucca Lacerda de Souza Lommez</p>
+<h1 id="documentacao-do-shared-project-overview">Documentação do Shared Project - Overview</h1>
+<h2 id="1-introducao-ao-shared-project">1. Introdução ao Shared Project</h2>
+<p>O Shared Project é uma solução de integração e automação desenvolvida para otimizar e padronizar processos de integração entre sistemas. Diferente de abordagens tradicionais, onde cada cliente possui seu próprio código de integração isolado, o Shared Project centraliza funções comuns em um único repositório compartilhado, permitindo que atualizações e melhorias sejam aplicadas automaticamente a todos os clientes simultaneamente.</p>
+<h3 id="conceito-fundamental">Conceito Fundamental</h3>
+<p>Considere um cenário com 20 clientes diferentes, cada um com seu próprio processo de integração. Anteriormente, caso fosse necessário implementar uma melhoria ou corrigir um erro, seria preciso modificar 20 códigos diferentes. Com o Shared Project, é necessário modificar apenas uma vez o código central, e todos os 20 clientes são atualizados automaticamente na próxima execução.</p>
+<h3 id="por-que-ele-e-pratico">Por que ele é prático?</h3>
+<ul>
+<li>Centralização de código: Funções comuns são mantidas em um único lugar, eliminando duplicação</li>
+<li>Atualizações automáticas: Cada cliente executa um "pull" do repositório compartilhado diariamente</li>
+<li>Padronização: Todos os clientes seguem o mesmo padrão de integração</li>
+<li>Maior confiabilidade: Validações e tratamentos de erros padronizados</li>
+<li>Redução de tempo: Processos que antes demandavam configuração manual são automatizados</li>
+<li>Monitoramento centralizado: Todos os logs são enviados para um banco de dados central</li>
+</ul>
+<h2 id="2-fluxo-de-trabalho">2. Fluxo de Trabalho</h2>
+<h3 id="antes-do-shared-project">Antes do Shared Project:</h3>
+<p>Anteriormente, cada cliente tinha seu próprio processo de integração, com códigos diferentes para tarefas comuns como:</p>
+<ul>
+<li>Geração de interfaces (arquivos CSV)</li>
+<li>Carregamento de dados no sistema (Autoloader)</li>
+<li>Execução de procedimentos no banco de dados</li>
+<li>Atualização de dashboards Power BI e/ou Analytics</li>
+<li>Geração de relatórios e logs</li>
+<li>Gerenciamento de arquivos</li>
+</ul>
+<p>Cada implementação tinha suas particularidades, tratamentos de erros inconsistentes, e necessitava de manutenção individual. Qualquer melhoria precisava ser replicada manualmente em cada cliente.</p>
+<h3 id="com-o-shared-project">Com o Shared Project:</h3>
+<p>O processo agora é padronizado e centralizado:</p>
+<ol>
+<li>O notebook principal do cliente importa o módulo Shared Project</li>
+<li>Executa-se automaticamente um "git pull" para garantir a versão mais atualizada</li>
+<li>As funções padronizadas são utilizadas para todas as operações comuns</li>
+<li>Validações de ambiente ocorrem automaticamente</li>
+<li>Logs são padronizados e enviados para um banco central</li>
+<li>Processos longos são executados em threads separadas para otimização</li>
+</ol>
+<h2 id="3-implementacao">3. Implementação</h2>
+<p>O processo de implementação do Shared Project é descrito detalhadamente em <a href="https://www.notion.so/Integrar-Shared-Project-2476f59d8418805fac34ebb8359c8a64?pvs=21">Integrar Shared Project </a> </p>
+<h2 id="4-explicacao-das-funcoes">4. Explicação das Funções</h2>
+<h3 id="funcoes-de-inicializacao">— Funções de Inicialização</h3>
+<h3 id="importlocalvars">ImportLocalVars</h3>
+<p>Esta função importa variáveis do notebook principal para o módulo compartilhado. Ela permite que o módulo compartilhado tenha acesso às configurações específicas de cada cliente sem precisar redefini-las.</p>
+<h3 id="gitpull">GitPull</h3>
+<p>Executa um "git pull" no repositório Shared_Project para garantir que o código mais recente seja utilizado. Esta função é executada em uma thread separada com timeout para evitar travamentos, e registra o resultado no log de integração.</p>
+<h3 id="servervalidation">ServerValidation</h3>
+<p>Verifica se o ambiente do servidor está configurado corretamente. Checa a existência da pasta de logs, as credenciais do Power BI e do banco central, e verifica se os serviços Windows necessários estão em execução.</p>
+<h3 id="funcoes-de-monitoramento-e-execucao">— Funções de Monitoramento e Execução</h3>
+<h3 id="timecheck">timeCheck</h3>
+<p>Uma classe que funciona como um decorador de contexto para medir o tempo de execução de processos. Ela registra quando um processo começa e termina, calculando o tempo total em minutos.</p>
+<h3 id="sql_log">sql_log</h3>
+<p>Registra eventos no banco de dados de log local e, opcionalmente, envia para o banco central. Esta função padroniza o formato dos logs.</p>
+<h3 id="run_executable">run_executable</h3>
+<p>Executa scripts externos (.ipynb, .py, .cmd) e captura sua saída. Gera arquivos HTML para notebooks, facilitando a análise posterior. Mede o tempo de execução e registra erros.</p>
+<h3 id="exec_dbjobs">exec_dbJobs</h3>
+<p>Executa uma lista de procedimentos armazenados no banco de dados, medindo o tempo de cada um. Trata erros específicos e registra resultados.</p>
+<h3 id="pbi_refresh">pbi_refresh</h3>
+<p>Atualiza dashboards do Power BI usando a API oficial. Gerencia tokens de autenticação, verifica o status da atualização periodicamente e registra o resultado.</p>
+<h3 id="funcoes-utilitarias">— Funções Utilitárias</h3>
+<h3 id="clear_inputfolder">clear_inputFolder</h3>
+<p>Move arquivos existentes da pasta de entrada para uma subpasta de arquivos ignorados, preparando o ambiente para uma nova execução.</p>
+<h3 id="to_sqlcsv">to_SqlCsv</h3>
+<p>Exporta dados para SQL ou CSV com configurações padronizadas, garantindo consistência em todas as exportações.</p>
+<h3 id="resetwindowsservices">resetWindowsServices</h3>
+<p>Reinicia serviços do Windows e processos, seguindo uma ordem específica para evitar problemas de dependência.</p>
+<h3 id="shutdownserver">shutDownServer</h3>
+<p>Desliga o servidor após verificar que todos os processos foram concluídos com sucesso e que não há erros registrados.</p>
+<h3 id="zipdeletefiles">zipDeleteFiles</h3>
+<p>Compacta ou exclui arquivos antigos com base em sua data de modificação, ajudando a gerenciar o espaço em disco.</p>
+<h3 id="funcoes-de-centralizacao">— Funções de Centralização</h3>
+<h3 id="getclientinfotocentral">getClientInfoToCentral</h3>
+<p>Coleta informações sobre a execução atual (dados do Autoloader, quarentenas, arquivos importados, status de integração) e envia para o banco de dados central, permitindo monitoramento unificado de todos os clientes.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+    
+  </body>
+</html>
